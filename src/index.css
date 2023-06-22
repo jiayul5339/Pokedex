@@ -56,23 +56,31 @@ header {
 }
 
 form {
-  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
+.search{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
 #searchBar {
   font-size: large;
   font-weight: 500;
+  width: 100%;
 }
 
 .dropdown {
   position: absolute;
-  top: 50px;
+  top: 46px;
   background-color: rgb(196, 196, 196);
-  width: 80%;
+  width: 100%;
   border-radius: 8px;
   min-width: 216px;
   max-width: 250px;

@@ -57,8 +57,8 @@ const Header = ({request, setRequest, invalid, pokemonData}) => {
     <header>
         <img className="logo" src="../images/pokedex.png" alt='Pokedex Logo'/>
         <form onSubmit={handleSubmit}>
-
-          <input 
+          <div className='search'>
+            <input 
               id='searchBar' 
               type='search' 
               placeholder='Search for a Pok&#232;mon' 
@@ -66,24 +66,26 @@ const Header = ({request, setRequest, invalid, pokemonData}) => {
               value={search}
               onChange={handleChange}
               onKeyDown={handleKeyDown}
-          />
+            />
 
-          <div className='dropdown'>
-            {pokemonData?.filter(item => {
-              return search && item.name.startsWith(search);
-            }).slice(0, 12)
-            .map((item, index) => {
-              if (index >= suggestionSize) {
-                suggestionSize = index;
-              }
-              return <div key={index} id={index} data-value={item.name} className={selectedItem === index ? 'dropdown-item active': 'dropdown-item'} 
-              onClick={() => {
-                setRequest(item.name);
-                reset();
-              }}>
-                {item.name}
-              </div>})}
+            <div className='dropdown'>
+              {pokemonData?.filter(item => {
+                return search && item.name.startsWith(search);
+              }).slice(0, 12)
+              .map((item, index) => {
+                if (index >= suggestionSize) {
+                  suggestionSize = index;
+                }
+                return <div key={index} id={index} data-value={item.name} className={selectedItem === index ? 'dropdown-item active': 'dropdown-item'} 
+                onClick={() => {
+                  setRequest(item.name);
+                  reset();
+                }}>
+                  {item.name}
+                </div>})}
+            </div>
           </div>
+          
 
           <div className='pokeball' onClick={handleSubmit}>
             <div className='pokeball__button'></div>
