@@ -3,11 +3,13 @@ import { useState } from 'react'
 const Header = ({setRequest, invalid}) => {
     const [ search, setSearch ] = useState('');
 
+    // Setting search to value in input
     const handleChange = (e) => {
       e.preventDefault();
       setSearch(e.target.value);
     }
 
+    // When submit, send a request for search value and clear search bar
     const handleSubmit = (e) => {
       e.preventDefault();
       setRequest(search);
@@ -15,6 +17,7 @@ const Header = ({setRequest, invalid}) => {
       document.getElementById('searchBar').value = '';
     }
 
+    // Get a random number between 1 and 1010, use as pokemonID
     const getRandom = () => {
       const randomNum = Math.floor(Math.random() * 1010) + 1;
       document.getElementById('searchBar').value = '';
