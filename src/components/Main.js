@@ -8,14 +8,14 @@ const Main = ( {contents, formatString} ) => {
         <div className="name">
           <h1 className="pokemonName">{contents.name}</h1>
           <div className="types">
-            {contents.types?.map((type) => {
-              return <Type type={type} />
+            {contents.types?.map((type, index) => {
+              return <Type key={index} type={type} />
             })}
           </div>
         </div>
 
-        {contents.stats?.map((data) => {
-          return <Stats stats={data} formatString={formatString}/>
+        {contents.stats?.map((data, index) => {
+          return <Stats key={index} stats={data} formatString={formatString}/>
         })}
     </main>
   )
