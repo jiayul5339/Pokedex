@@ -21,6 +21,7 @@ Welcome to the Pokédex project! This project is a simple implementation of a Po
 ### Technologies Used
 
 The Pokédex project is built using the following technologies:
+
 **Programming Language**: Javascript
 
 **Front-End**: HTML, CSS, React.js
@@ -28,6 +29,7 @@ The Pokédex project is built using the following technologies:
 **Pokémon Data**: Pokédex JSON from the PokéAPI
 
 ### Usage
+
 Once the Pokedex project is up and running, you can start exploring the Pokémon through the user interface.
 
 **Search by Name**: Enter the name of a Pokemon in the search bar and press Enter or click the search button. The system will display information about the Pokemon, including its type, stats, and an image.
