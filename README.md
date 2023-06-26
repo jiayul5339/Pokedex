@@ -9,7 +9,9 @@ Welcome to the Pokédex project! This project is a simple implementation of a Po
 **Search by Name**: Easily search for a specific Pokemon by its name and retrieve detailed information about it.
 **Combat Data**: Color-coordinated combat stats to help identify the Pokémon's strengths and weaknesses
 **Interactive User Interface**: Enjoy a user-friendly interface with smooth navigation and visually appealing displays.
+
 ![image](https://github.com/jiayul5339/Pokedex/assets/98488999/15dce7be-0867-47ce-9cbc-4e41abd1a41f)
+
 ![image](https://github.com/jiayul5339/Pokedex/assets/98488999/45d96127-c33e-41c6-a8f6-59b4f17b0f88)
 
 
