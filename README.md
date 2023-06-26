@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Pokédex Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Pokédex project! This project is a simple implementation of a Pokédex, which allows you to search for the combat data of various Pokemon species. 
 
-## Available Scripts
+### Application: [View the Pokédex Application](https://jlpokedex.netlify.app/)
 
-In the project directory, you can run:
+### Features
 
-### `npm start`
+**Search by Name**: Easily search for a specific Pokemon by its name and retrieve detailed information about it.
+**Combat Data**: Color-coordinated combat stats to help identify the Pokémon's strengths and weaknesses
+**Interactive User Interface**: Enjoy a user-friendly interface with smooth navigation and visually appealing displays.
+![image](https://github.com/jiayul5339/Pokedex/assets/98488999/15dce7be-0867-47ce-9cbc-4e41abd1a41f)
+![image](https://github.com/jiayul5339/Pokedex/assets/98488999/45d96127-c33e-41c6-a8f6-59b4f17b0f88)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Technologies Used
 
-### `npm run build`
+The Pokédex project is built using the following technologies:
+**Programming Language**: Javascript
+**Front-End**: HTML, CSS, React.js
+**Pokémon Data**: Pokédex JSON from the PokéAPI
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Usage
+Once the Pokedex project is up and running, you can start exploring the Pokémon through the user interface.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Search by Name**: Enter the name of a Pokemon in the search bar and press Enter or click the search button. The system will display information about the Pokemon, including its type, stats, and an image.
+**Random Pokemon**: Click on the "Random" button in the navigation menu to discover a randomly selected Pokémon. Explore its stats and learn something new about different species.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Ackknowledgements 
+**PokéAPI**: The Pokedex project relies on the PokéAPI to fetch Pokémon data.
+**React.JS**: Javascript was used in conjunction with the React library.
